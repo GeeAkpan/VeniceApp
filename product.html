@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>VenAce -- Product</title>
+
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/venace.css" rel="stylesheet">
+        
+
+    </head>
+    
+    <body>
+
+         <main>
+
+            <nav class="navbar navbar-expand-lg">                
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <!-- <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Tiya Golf Club"> -->
+                        <span class="navbar-brand-text">
+                            VenAce
+                            <small> Engineering</small>
+                        </span>
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-3">
+                        <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Subscribe for Update</a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_2">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_3">Product</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_4">News</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_5">Contact Us</a>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+
+                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="product.html">More on Product</a></li>
+
+                                    <li><a class="dropdown-item" href="request-demo.html">Request a Demo</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block ms-lg-3">
+                            <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Subscribe for Update</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">                
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Subscribe for Update</h5>
+                    
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                <div class="offcanvas-body d-flex flex-column">
+                    <form class="custom-form member-login-form" action="#" method="post" role="form">
+
+                        <div class="member-login-form-body">
+                            <div class="mb-4">
+                                <label class="form-label mb-2" for="member-login-number">Full Name</label>
+
+                                <input type="text" name="member-login-number" id="member-login-number" class="form-control" placeholder="Enter name" required>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label mb-2" for="member-login-password">Email</label>
+
+                                <input type="text" name="member-login-number" id="member-login-number" class="form-control" placeholder="example@mail.com" required>
+                            </div>
+
+                            <!-- <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Remember me
+                                </label>
+                            </div> -->
+
+                            <div class="col-lg-5 col-md-7 col-8 mx-auto">
+                                <button type="submit" class="form-control">Submit</button>
+                            </div>
+
+                            <div class="text-center my-4">
+                                <a href="#">We would Keep you Posted</a>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="mt-auto mb-5">
+                        <p>
+                            <strong class="text-white me-3">Any Questions?</strong>
+
+                            <a href="tel: +234-802-202-7592" class="contact-link">
+                                +234-802-202-7592
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#34B11B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+            </div>
+            
+
+            <section class="hero-section hero-50 d-flex justify-content-center align-items-center" id="section_1">
+
+                <div class="section-overlay"></div>
+
+                <svg viewBox="0 0 1962 178" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#34B11B" d="M 0 114 C 118.5 114 118.5 167 237 167 L 237 167 L 237 0 L 0 0 Z" stroke-width="0"></path> <path fill="#34B11B" d="M 236 167 C 373 167 373 128 510 128 L 510 128 L 510 0 L 236 0 Z" stroke-width="0"></path> <path fill="#34B11B" d="M 509 128 C 607 128 607 153 705 153 L 705 153 L 705 0 L 509 0 Z" stroke-width="0"></path><path fill="#34B11B" d="M 704 153 C 812 153 812 113 920 113 L 920 113 L 920 0 L 704 0 Z" stroke-width="0"></path><path fill="#34B11B" d="M 919 113 C 1048.5 113 1048.5 148 1178 148 L 1178 148 L 1178 0 L 919 0 Z" stroke-width="0"></path><path fill="#34B11B" d="M 1177 148 C 1359.5 148 1359.5 129 1542 129 L 1542 129 L 1542 0 L 1177 0 Z" stroke-width="0"></path><path fill="#34B11B" d="M 1541 129 C 1751.5 129 1751.5 138 1962 138 L 1962 138 L 1962 0 L 1541 0 Z" stroke-width="0"></path></svg>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+
+                            <h1 class="text-white mb-4 pb-2">Check Our Product</h1>
+
+                            <a href="#section_3" class="btn custom-btn smoothscroll me-3">Explore Events</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <svg viewBox="0 0 1962 178" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#ffffff" d="M 0 114 C 118.5 114 118.5 167 237 167 L 237 167 L 237 0 L 0 0 Z" stroke-width="0"></path> <path fill="#ffffff" d="M 236 167 C 373 167 373 128 510 128 L 510 128 L 510 0 L 236 0 Z" stroke-width="0"></path> <path fill="#ffffff" d="M 509 128 C 607 128 607 153 705 153 L 705 153 L 705 0 L 509 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 704 153 C 812 153 812 113 920 113 L 920 113 L 920 0 L 704 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 919 113 C 1048.5 113 1048.5 148 1178 148 L 1178 148 L 1178 0 L 919 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 1177 148 C 1359.5 148 1359.5 129 1542 129 L 1542 129 L 1542 0 L 1177 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 1541 129 C 1751.5 129 1751.5 138 1962 138 L 1962 138 L 1962 0 L 1541 0 Z" stroke-width="0"></path></svg>
+            </section>
+
+
+
+
+        <section class="membership-section section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center">
+                            <h2><span>Our</span> Product</h2>
+                        </div>
+
+                        <div class="col-lg-12 col-12 me-auto mb-4 mb-lg-0">
+                            <br>
+                            <p>Welcome to our company, where we are dedicated to bringing clean and sustainable cooking solutions to emerging markets in Sub-Saharan Africa. Our solar induction cookers utilize cutting-edge technology to provide an efficient and eco-friendly alternative to traditional charcoal and wood-burning stoves. We believe in making clean cooking accessible to everyone, which is why we offer a pay-as-you-go model that allows our customers to pay for their cookers in affordable installments. This ensures that even those with limited resources can benefit from the advantages of clean cooking and reduce their carbon footprint. At our core, we are committed to creating a better future for Sub-Saharan Africa by improving health, reducing deforestation, and promoting economic growth through sustainable solutions. Join us on this journey and be a part of the movement towards a brighter, cleaner, and more equitable future</p>
+                        </div>
+
+                        <div class="col-lg-6 col-9 text-center mx-auto mb-lg-5 mb-4">
+                          <div class="ratio ratio-16x9">
+                            <img src="images/002.png" alt="Image VenAce 1" class="img-fluid">
+                          </div>
+                          <p></p>
+                        </div>
+
+                        <div class="col-lg-6 col-9 text-center mx-auto mb-lg-5 mb-4">
+                          <div class="ratio ratio-16x9">
+                            <img src="images/004.png" alt="Image VenAce 2" class="img-fluid">
+                          </div>
+                            <p></p>
+                        </div>
+                    </div>
+
+
+                <section class="membership-section section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-12 text-center mx-auto mb-3 mb-lg-0">
+                            <h4 class="mb-4 pb-lg-2">The Difference Maker</h4>
+
+                            <div class="table-responsive">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 34%;">Features</th>
+                                            
+                                            <th style="width: 22%;">VenAce Model A</th>
+                                            
+                                            <th style="width: 22%;">VenAce Model B</th>
+                                            
+                                            <th style="width: 22%;">VenAce Model C</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row" class="text-start">Portable & Lightweight</th>
+                                            
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+                                            
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+                                            
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="text-start">Warm Timer</th>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="text-start">Ceramic Glass</th>
+
+                                            <td>
+                                                <i class="bi-x-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="text-start">USB Charging Port</th>
+
+                                            <td>
+                                                <i class="bi-x-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="text-start">Auto-Pan Detection</th>
+
+                                            <td>
+                                                <i class="bi-x-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-x-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <th scope="row" class="text-start">Built-in Fan Cooling</th>
+
+                                            <td>
+                                                <i class="bi-x-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-x-circle-fill"></i>
+                                            </td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill"></i>
+                                            </td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="events-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12">
+                            <h2 class="mb-lg-5 mb-4">Product Types and Configuration</h2>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <!-- <div class="custom-block-image-wrap">
+                                    <img src="images/frederik-rosar-NDSZcCfnsbY-unsplash.jpg" class="custom-block-image img-fluid" alt="">
+                                <div class="custom-block-date-wrap">
+                                    <strong class="text-white">Type</strong>
+                                </div>
+
+                                <div class="custom-btn-wrap">
+                                    <a class="btn custom-btn">Single Burner</a>
+                                </div>
+                            </div>
+ -->
+                            <div class="custom-block-info">
+                                <a class="events-title mb-2">Vencooker Single Burner</a>
+
+                                <p class="mb-0">Compact yet powerful, the Vencooker Single Burner is the perfect single-burner induction cooktop for small kitchens or personal use. Its stainless steel build ensures durability, while its efficient heating technology delivers exceptional cooking performance. Enjoy the freedom of solar power with this versatile and eco-friendly appliance.</p>
+
+
+                                <div class="border-top mt-4 pt-3">
+                                    <div class="d-flex flex-wrap align-items-center mb-1">
+                                        <a class="custom-block-span">Additional Feature:</a>
+                                        <br>
+
+                                        <p class="mb-0">Maximum temperature - 200C</p>
+                                        <p class="mb-0">USB charging port</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="col-lg-6 col-12">
+                            <!-- <div class="custom-block-image-wrap">
+                                    <img src="images/frederik-rosar-NDSZcCfnsbY-unsplash.jpg" class="custom-block-image img-fluid" alt="">
+                                <div class="custom-block-date-wrap">
+                                    <strong class="text-white">Type</strong>
+                                </div>
+
+                                <div class="custom-btn-wrap">
+                                    <a class="btn custom-btn">Two Burner</a>
+                                </div>
+                            </div> -->
+
+                            <div class="custom-block-info">
+                                <a class="events-title mb-2">Vencooker Two Burner</a>
+
+                                <p class="mb-0">This powerful induction cooktop features dual cooking zones, including a booster function for rapid heating. Its sleek ceramic glass surface is easy to clean and maintain, while smart feature like auto-pan detection that offer unparalleled convenience. Powered by the sun, the Vencooker Two Burner is not just a kitchen appliance but a sustainable lifestyle choice.</p>
+
+
+                                <div class="border-top mt-4 pt-3">
+                                    <div class="d-flex flex-wrap align-items-center mb-1">
+                                        <a class="custom-block-span">Additional Feature:</a>
+                                        <br>
+
+                                        <p class="mb-0">Maximum temperature - 300C</p><br>
+                                        <p class="mb-0">Lightweight and Durable</p><br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="events-section events-listing-section section-bg section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12">
+                            <h2 class="mb-3">Upcoming Events</h2>
+                        </div>
+
+                        <div class="row custom-block custom-block-bg">
+                            <div class="col-lg-2 col-md-4 col-12 order-2 order-md-0 order-lg-0">
+                                <div class="custom-block-date-wrap d-flex d-lg-block d-md-block align-items-center mt-3 mt-lg-0 mt-md-0">
+                                    <h6 class="custom-block-date mb-lg-1 mb-0 me-3 me-lg-0 me-md-0">13</h6>
+                                    
+                                    <strong class="text-white">Apr 2024</strong>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-8 col-12 order-1 order-lg-0">
+                                <div class="custom-block-image-wrap">
+                                        <img src="images/picture-2.jpg" class="custom-block-image img-fluid" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12 order-3 order-lg-0">
+                                <div class="custom-block-info mt-2 mt-lg-0">
+                                    <a class="events-title mb-3">Ibadan Market Exhibition</a>
+
+                                    <p class="mb-0">Join us for an electrifying experience at Ibadan Market as we unveil the future of cooking. Discover the power of VenAce induction cookers - clean, efficient, and solar-powered. Enjoy amazing demos, irresistible offers, and stand a chance to win exciting prizes. Don't miss out!</p>
+
+                                    <div class="d-flex flex-wrap border-top mt-4 pt-3">
+
+                                        <div class="mb-4 mb-lg-0">
+                                            <div class="d-flex flex-wrap align-items-center mb-1">
+                                                <span class="custom-block-span">Location:</span>
+
+                                                <p class="mb-0">Oluyole Market Square, Ibadan</p>
+                                            </div>
+
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <span class="custom-block-span">Time:</span>
+
+                                                <p class="mb-0">10:00 AM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 me-auto mb-5 mb-lg-0">
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <!-- <img src="images/logo.png" class="navbar-brand-image img-fluid" alt=""> -->
+                            <span class="navbar-brand-text">
+                                VenAce
+                                <small>Engineering</small>
+                            </span>
+                        </a>
+                         <br>
+                        <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                         <br>
+                        <a class="nav-link click-scroll" href="index.html#section_2">About</a>
+                         <br>
+                        <a class="nav-link click-scroll" href="index.html#section_3">Product</a>
+                         <br>
+                        <a class="nav-link click-scroll" href="index.html#section_4">News</a>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <h5 class="site-footer-title mb-4">Connect with Us</h5>
+
+                        <p class="d-flex border-bottom pb-3 mb-3 me-lg-3">
+                            <span><li class="social-icon-item">
+                                    <a href="https://www.linkedin.com/company/venaceengineering/about/?viewAsMember=true" class="social-icon-link bi-linkedin"></a>
+                                </li></span>
+                            Connect with us on LinkedIn
+                        </p>
+
+                        <p class="d-flex me-lg-3">
+                            <span><li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li></span>
+                            Check Our Instagram Page
+                        </p>
+
+                        <p class="d-flex me-lg-3">
+                            <span><li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-facebook"></a>
+                                </li></span>
+                           Like us On Facebook
+                        </p>
+
+                        <p class="d-flex me-lg-3">
+                            <span><li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li></span>
+                            follow us On Twitter
+                        </p>
+
+                        <br>
+                        <p class="copyright-text">Copyright © 2024 VenAce Engineering</p>
+                    </div>
+                </div>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#34B11B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
